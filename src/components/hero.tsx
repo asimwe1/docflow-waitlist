@@ -21,7 +21,7 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-lime-400" />
           </span>
           <p className="uppercase text-sm font-medium">
-            available in early {year}
+            available in late {year}
           </p>
         </div>
       </div>
@@ -39,9 +39,9 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
         <Form onSuccessChange={setIsSuccess} />
       </div>
       <div className="flex items-center justify-center gap-2">
-        <People count={waitlistPeople} />
+        <People count={waitlistPeople + 10} />
       </div>
-      <Countdown period={new Date("2025-12-31")} />
+      <Countdown period={new Date("2025-12-15")} />
     </div>
   );
 }

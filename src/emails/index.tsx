@@ -20,8 +20,8 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
 		<Html>
 			<Tailwind>
 				<Head>
-					<title>Welcome to Waitly</title>
-					<Preview>Thanks for joining our waitlist! We'll keep you in the loop.</Preview>
+					<title>Welcome to DocFlow AI</title>
+					<Preview>You’re on the DocFlow AI waitlist! Get ready for instant PDF extraction.</Preview>
 					<style>
 						{`
               @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700&display=swap');
@@ -32,11 +32,11 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
 					<Container className="bg-[#18181B] rounded-[8px] mx-auto p-[32px] max-w-[600px]">
 						<Section className="mt-[16px] text-center">
 							<Text className="text-[28px] font-bold text-white m-0">
-								Welcome to <span className="text-[#DFFF1A]">Waitly</span>
+								Welcome to <span className="text-[#DFFF1A]">DocFlow AI</span>
 							</Text>
 
 							<Text className="text-[18px] text-[#A1A1AA] mt-[16px] mb-[16px]">
-								We're thrilled to have you join our waitlist
+								You’re officially on the waitlist
 							</Text>
 
 							<Hr className="border-solid border-[#27272A] my-[16px] w-[80px] mx-auto" />
@@ -48,17 +48,17 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
 							</Text>
 
 							<Text className="text-[16px] leading-[24px] text-[#E4E4E7]">
-								Thanks for joining the waitlist for our Next.js + Notion CMS template! We're a small team at Idee8 working to help businesses like yours grow online, and we couldn't be more excited to have you with us.
+								Thanks for joining the DocFlow AI waitlist! We’re building the fastest way to extract financial data from PDFs — invoices, receipts, bank statements — and turn it into clean JSON or CSV in seconds.
 							</Text>
 
 							<Text className="text-[16px] leading-[24px] text-[#E4E4E7]">
-								I'll personally keep you updated on our progress and let you know the moment it's ready for you. Got questions or ideas in the meantime? Just hit reply – I read every email and would love to hear from you.
+								You’ll be among the first to get access with a 25% lifetime discount. Share your referral link to jump the queue — every 3 referrals moves you up 5 spots.
 							</Text>
 
 							<Section className="my-[32px] text-center">
 								<Button
 									className="bg-[#DFFF1A] text-[#09090B] font-bold py-[12px] px-[24px] rounded-[12px] no-underline text-center box-border"
-									href="https://cal.com/idee8/quick-chat"
+									href="https://cal.com/docflow/demo"
 								>
 									<span style={{ display: 'inline-flex', alignItems: 'center' }}>
 										<svg
@@ -80,21 +80,21 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
 											<path d="M12 18H12.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 											<path d="M16 18H16.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 										</svg>
-										Book a call
+										Book a Demo
 									</span>
 								</Button>
 							</Section>
 
 							<Text className="text-[16px] leading-[24px] text-[#E4E4E7]">
-								Want to see what we're up to? Follow us at <Link href="https://twitter.com/Idee8Agency" className="text-[#DFFF1A] underline">@Idee8Agency</Link> for behind-the-scenes updates and early previews.
+								Follow us on <Link href="https://twitter.com/docflowai" className="text-[#DFFF1A] underline">@docflowai</Link> for updates, previews, and early feature drops.
 							</Text>
 
 							<Text className="text-[16px] leading-[24px] text-[#E4E4E7] mt-[24px]">
-								Cheers,
+								See you soon,
 							</Text>
 
 							<Text className="text-[16px] font-bold text-white mb-[32px]">
-								The Idee8 Team
+								The DocFlow AI Team
 							</Text>
 						</Section>
 
@@ -102,17 +102,17 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
 
 						<Section>
 							<Text className="text-[12px] text-[#71717A] text-center m-0">
-								© {currentYear} Idee8 Agency. All rights reserved.
+								© {currentYear} DocFlow AI. All rights reserved.
 							</Text>
 							<Text className="text-[12px] text-[#71717A] text-center m-0">
-								123 Digital Avenue, Suite 101, Kigali, Rwanda
+								Kigali, Rwanda
 							</Text>
 							<Text className="text-[12px] text-[#71717A] text-center mt-[16px]">
-								<Link href="https://idee8.com/unsubscribe" className="text-[#DFFF1A]">
+								<Link href="https://docflow.ai/unsubscribe" className="text-[#DFFF1A]">
 									Unsubscribe
 								</Link>{' '}
 								•{' '}
-								<Link href="https://idee8.com/privacy" className="text-[#DFFF1A]">
+								<Link href="https://docflow.ai/privacy" className="text-[#DFFF1A]">
 									Privacy Policy
 								</Link>
 							</Text>

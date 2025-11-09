@@ -1,3 +1,7 @@
+export const FlutterLogo = "/svgs/flutter.png";
+export const RustLogo = "/svgs/rust.png";
+export const GrokLogo = "/svgs/grok.png";
+
 export { default as GithubLogo } from "./github";
 export { default as NotionLogo } from "./notion";
 export { default as Logo } from "./logo";
