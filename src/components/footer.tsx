@@ -16,10 +16,17 @@ export default function Footer() {
         </Link>
         <span className="text-muted-foreground">•</span>
         <Link
-          href="https://docflow.ai"
+          href="https://docflow.aphezis.com"
           className="text-muted-foreground hover:text-foreground"
         >
           docflow.ai
+        </Link>
+        <span className="text-muted-foreground">•</span>
+        <Link
+          href="https://buymeacoffee.com/elsadeny"
+          className="text-muted-foreground hover:text-foreground"
+        >
+          Become a sponsor
         </Link>
       </div>
 
