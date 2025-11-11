@@ -86,7 +86,7 @@ export default function People({
 					</div>
 				))}
 			</div>
-			<motion.div className="text-sm md:text-base text-muted-foreground">
+			<motion.div className="text-md md:text-base text-muted-foreground">
 				Join{" "}
 				<motion.span
 					className="font-semibold text-foreground"

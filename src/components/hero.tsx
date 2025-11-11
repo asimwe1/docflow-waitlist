@@ -66,9 +66,9 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
       <div className="flex flex-col items-center gap-6 mt-4">
         <div className="flex flex-col items-center justify-center gap-2">
           <People count={waitlistPeople + 10} />
-          <span className="text-lg text-muted-foreground">
+          {/* <span className="text-lg text-muted-foreground">
             already joined the waitlist
-          </span>
+          </span> */}
         </div>
         <Countdown period={new Date("2025-12-15")} />
       </div>
